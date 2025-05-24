@@ -1,0 +1,21 @@
+{
+  "name": "aesthetic-vibes",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/YashmitASD123/aesthetic-vibes#readme",
+  "bugs": {
+    "url": "https://github.com/YashmitASD123/aesthetic-vibes/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YashmitASD123/aesthetic-vibes.git"
+  },
+  "license": "ISC",
+  "author": "Ignacio536P (formerly known as Yashmit)",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm i --prefix backend && npm i --prefix frontend && npm run build --prefix frontend",
+    "start": "npm start --prefix backend"
+  }
+}
